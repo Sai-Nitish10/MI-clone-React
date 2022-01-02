@@ -1,0 +1,43 @@
+.HotAccessoriesMenu{
+    padding: 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HotAccessoriesLink{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.1vmax;
+}
+
+.HotAccessoriesLink:hover{
+    color: #ff6700;;
+}
+
+/* underline hover animation */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff6700;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

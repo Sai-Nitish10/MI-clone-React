@@ -1,0 +1,37 @@
+.videosCard{
+     width: 398px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*we use the below 2 when we want a image to fit in the size we want here we want it
+    as width: 30vmax; height: 48vh; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0.7vmax;
+    cursor: pointer;
+    
+}
+
+.videosCard > a {
+    padding: 2.5vmax;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.096);
+    color: white;
+    }
+
+.videosCard > a > svg {
+    fill: rgb(255, 255, 255);
+    }
+
+.videosCard:hover a {
+    background-color: rgba(221, 218, 218, 0.671);
+    }
+
+.videosCard p {
+    color: white;
+    margin: 1vmax;
+    }

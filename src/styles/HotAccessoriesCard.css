@@ -1,0 +1,39 @@
+.HotAccessoriesCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: white;
+    width: 31%;
+    margin:  0.7vmax;
+    box-shadow: 0px 6px 15px rgba(197, 196, 196, 0.363);
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.HotAccessoriesCard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+
+}
+
+
+.HotAccessoriesCard > img{
+    width: 70%;
+
+}
+
+
+.HotAccessoriesCard > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85, 83, 83);
+
+}
+
+.HotAccessoriesCard > span{
+    margin: -1vmax 0 1vmax 0;
+    color: orangered;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
